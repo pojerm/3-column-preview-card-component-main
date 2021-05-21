@@ -18,14 +18,18 @@ body {
   font-size: 1.5rem;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 .card {
   padding: 0 4rem;
   flex-grow: 1;
+}
+.card__color--1 {
+  background-color: #e38826;
+}
+.card__color--2 {
+  background-color: #006970;
+}
+.card__color--3 {
+  background-color: #004241;
 }
 .card__image {
   margin-top: 4rem;
@@ -53,22 +57,20 @@ body {
   mix-blend-mode: screen;
 }
 
-.jedan {
-  background-color: #e38826;
+@media (min-width: 801px) {
+  .card__btn {
+    margin: 8.3rem 0 3.4rem 0;
+  }
 }
-
-.dva {
-  background-color: #006970;
-}
-
-.tri {
-  background-color: #004241;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 801px) {
   .container {
     flex-direction: row;
-    background: bisque;
+    background: #f2f2f2;
     height: 100vh;
     display: flex;
     align-items: center;
