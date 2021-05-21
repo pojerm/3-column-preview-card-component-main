@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 *,
 *::before,
 *::after {
@@ -15,66 +15,37 @@ html {
 
 body {
   box-sizing: border-box;
-  font-size: 1.5rem;
-}
-
-.card {
-  padding: 0 4rem;
-  flex-grow: 1;
-}
-.card__color--1 {
-  background-color: #e38826;
-}
-.card__color--2 {
-  background-color: #006970;
-}
-.card__color--3 {
-  background-color: #004241;
-}
-.card__image {
-  margin-top: 4rem;
-}
-.card__title {
-  color: #f2f2f2;
-  font-family: "Big Shoulders Display", cursive;
-  margin: 2.5rem 0;
-}
-.card__text {
-  color: rgba(255, 255, 255, 0.75);
-  font-family: "Lexend Deca", sans-serif;
-  line-height: 1.7;
   font-size: 1.4rem;
-}
-.card__btn {
-  cursor: pointer;
-  border: none;
-  width: 15rem;
-  height: 4rem;
-  border-radius: 4rem;
-  margin: 4.3rem 0 3.4rem 0;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 700;
-  mix-blend-mode: screen;
+  font-family: "Raleway", sans-serif;
 }
 
-@media (min-width: 801px) {
-  .card__btn {
-    margin: 8.3rem 0 3.4rem 0;
-  }
-}
 .container {
+  background: center/cover no-repeat url(../../images/bg-mobile.png);
+  height: 100vh;
+}
+
+.fylo {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 55vh;
+  background-color: #1d2c67;
+  border-top-right-radius: 15rem;
+  width: 80%;
+  margin: 0 auto;
+  height: 22rem;
+  margin-left: 4rem;
 }
-
-@media (min-width: 801px) {
-  .container {
-    flex-direction: row;
-    background: #f2f2f2;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+.fylo__logo {
+  margin-left: 4.5rem;
+}
+.fylo__icons {
+  list-style: none;
+  display: flex;
+  gap: 3.5rem;
+  margin-top: 4rem;
+  margin-left: 4.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
